@@ -152,9 +152,12 @@ body {
 }
 
 .masthead {
-  width: 260px;
-  padding: 20px 50px 20px 10px;
+  width: 200px;
+  padding: 2em 1em;
   float: left;
+  top: 0;
+  min-height: 100vh;
+  position: sticky;
 }
 
 .main {
