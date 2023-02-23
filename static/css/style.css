@@ -42,10 +42,12 @@ h1, h2 {
   margin: 60px 0 30px;
   line-height: 1.25;
   text-align: center;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 32px;
+  font-family: lxgw wenkai screen, serif;
 }
 
 h2 {
@@ -156,7 +158,6 @@ body {
   padding: 2em 1em;
   float: left;
   top: 0;
-  min-height: 100vh;
   position: sticky;
 }
 
