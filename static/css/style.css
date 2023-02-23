@@ -302,11 +302,12 @@ thead, tfoot, tr:nth-child(even) {
   .masthead {
     width: auto;
     float: none;
-    padding: 20px 0 60px;
+    padding: 2em 1em;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
     border-bottom: 3px solid black;
+    position: relative;
   }
 
   .main {
