@@ -189,6 +189,27 @@ body {
   text-align: right;
 }
 
+.masthead .tagline-email {
+    font-style: italic;
+    font-size: small;
+    color: gray;
+}
+
+.masthead .menu .active a {
+    background: none;
+    border-bottom: 1px dashed #444;
+    color: #000;
+}
+
+a {
+    border-bottom: 1px dashed;
+    border-bottom-color: gray;
+}
+
+.menu li:not([class]) a, a:hover, .copyright a {
+    border-bottom: 1px solid;
+}
+
 .masthead .menu {
   margin-right: 20px;
   direction: rtl;
